@@ -17,22 +17,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.9</maven.compiler.source>
     <maven.compiler.target>1.9</maven.compiler.target>
-    <jenkins.version>2.414.3</jenkins.version>
   </properties>
 
   
 
-  <dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>io.jenkins.tools.bom</groupId>
-            <artifactId>bom-2.401.x</artifactId>
-            <version>…</version>
-            <scope>import</scope>
-            <type>pom</type>
-        </dependency>
-    </dependencies>
-</dependencyManagement>
+
 
   <dependencies>
     <dependency>
@@ -54,11 +43,7 @@
       <version>14</version>
     </dependency>
 
-  <!-- Dependencia de Metrics de Jenkins -->
-    <dependency>
-      <groupId>org.jenkins-ci.plugins</groupId>
-      <artifactId>metrics</artifactId>
-    </dependency>
+
 
   <!-- Dependencia de Aditional Metrics de Jenkins -->
     <dependency>
