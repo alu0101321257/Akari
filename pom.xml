@@ -22,26 +22,20 @@
     <jenkins.version>2.401.3</jenkins.version>
   </properties>
   
-<dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>io.jenkins.tools.bom</groupId>
-            <artifactId>bom-2.401.x</artifactId>
-            <version>…</version>
-            <scope>import</scope>
-            <type>pom</type>
-        </dependency>
-    </dependencies>
-</dependencyManagement>
-
   <dependencies>
     <dependency>
+      <groupId>io.jenkins.tools.bom</groupId>
+      <artifactId>bom-2.401.x</artifactId>
+      <version>…</version>
+      <scope>import</scope>
+      <type>pom</type>
+      
       <!-- <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope> -->
       <!--Versión actualizada de las dependencias de junit -->
-
+        
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.2</version>
